@@ -19,7 +19,7 @@ class App extends Component {
         <header className="App-header">UNIT 4 FINAL ASSESSMENT</header>
         <main>
           <CircleSelector select={this.state.select} handleSelected={this.handleSelected}/>
-          <Circles select={this.state.selCircle} />
+          <Circles select={this.state.select} />
         </main>
       </div>
     );
